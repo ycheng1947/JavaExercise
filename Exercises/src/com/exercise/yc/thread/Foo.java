@@ -12,12 +12,17 @@ public class Foo {
 		// TODO Auto-generated constructor stub
 	}
 
-	public int getX(){
+	public synchronized int getX(){
 		return x;
 	}
 	
 	public int fixX(int y){
-		return x-y ;
+		
+		synchronized (this) {
+			x = x-y ;
+		}
+		 
+		 return x;
 	}
 
 }
