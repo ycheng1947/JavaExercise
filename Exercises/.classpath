@@ -4,5 +4,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="D:/code/org.json.jar"/>
 	<classpathentry kind="lib" path="D:/code/jackson-all-1.6.4.jar"/>
+	<classpathentry kind="lib" path="D:/code/Jar/quartz-1.4.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
